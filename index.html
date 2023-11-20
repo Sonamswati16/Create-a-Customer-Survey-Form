@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Customer Survey Form</h1>
+      </header>
+      <form action="" id="survey-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="formControl"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="formControl"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <p id="quest">
+            Is this first time You are using our product & service ?
+          </p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Yes"
+              class="inputRadio"
+              checked
+            />Yes
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="No"
+              class="inputRadio"
+              checked
+            />No
+          </label>
+        </div>
+
+        </div>
+        <div class="form-group">
+          <p id="quest">
+            Would you suggestion to your friends and colleague ?
+          </p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Yes"
+              class="inputRadio"
+              checked
+            />Yes
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="No"
+              class="inputRadio"
+              checked
+            />No
+          </label>
+        </div>
+
+        </div>
+        <div class="form-group">
+          <p id="quest">
+            How satisfied are you with out company overall ?
+          </p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Satisfied"
+              class="inputRadio"
+              checked
+            />Satisfied
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Undecided"
+              class="inputRadio"
+              checked
+            />Undecided
+          </label>
+           <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Unsatisfied"
+              class="inputRadio"
+              checked
+            />Unsatisfied
+          </label>
+        </div>
+
+        <div class="form-group">
+            <p id="quest">Do you have suggestion to improve our service ?</p>
+            <textarea name="feedback" id="feedback" cols="30" rows="5" class="textarea" placeholder=" "></textarea>
+
+        </div>
+        <div class="form-group">
+            <button type="submit"
+            id="submit"
+            class="btn">Submit</button>
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>

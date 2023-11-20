@@ -1,0 +1,63 @@
+body, h1, p, label, input, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:lightskyblue;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color:white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#title {
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.inputRadio {
+  margin-right: 5px;
+}
+
+.textarea {
+  width: 100%;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
